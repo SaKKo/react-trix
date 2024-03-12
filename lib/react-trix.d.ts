@@ -41,19 +41,11 @@ export interface Rect {
     width: number;
     height: number;
 }
-export declare class TrixEditor extends React.Component<TrixEditorProps, TrixEditorState> {
-    private id;
-    private container;
-    private editor;
-    private d;
+export class TrixEditor extends React.Component<TrixEditorProps, TrixEditorState> {
     constructor(props: TrixEditorProps);
-    private generateId;
     componentDidMount(): void;
     componentWillUnmount(): void;
-    private handleChange;
-    private handleUpload;
-    private uploadAttachment;
-    private handleTagSelected;
-    private renderTagSelector;
     render(): JSX.Element;
 }
+
+//# sourceMappingURL=react-trix.d.ts.map
